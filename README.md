@@ -21,24 +21,24 @@ You will then need to deploy the 3 contracts here using these commands (also fou
 Note that you will probably need to change the paths to match your gnokey binary's build location and where you store the contracts in this repo. 
 
 
-##Credits
+## Credits
 The Todo Application was written by [Peyton Thibodeaux](https://github.com/Peyton232). Special thanks to [Florent Biville](https://github.com/fbiville) for their pmarkdown table library](https://github.com/fbiville/markdown-table-formatter) I used in the project.
 
-##Screenshots
+## Screenshots
 
-###Initial View
+### Initial View
 
 <img width="1510" alt="Screenshot 2023-05-09 at 2 43 47 PM" src="https://github.com/Peyton232/gnoTodoApp/assets/42720832/0b847273-d69d-42a4-9a1a-87de26768f43">
 
-###Added a todo list called chores
+### Added a todo list called chores
 
 <img width="1510" alt="Screenshot 2023-05-09 at 2 44 00 PM" src="https://github.com/Peyton232/gnoTodoApp/assets/42720832/215b3ebe-42d3-4c06-abeb-357606876230">
 <img width="1510" alt="Screenshot 2023-05-09 at 2 45 12 PM" src="https://github.com/Peyton232/gnoTodoApp/assets/42720832/5b4a9391-2893-440e-9a9e-5b0034d2ea3b">
 
-###Added 3 new tasks to the todo list chores
+### Added 3 new tasks to the todo list chores
 <img width="1510" alt="Screenshot 2023-05-09 at 2 45 44 PM" src="https://github.com/Peyton232/gnoTodoApp/assets/42720832/3db7a178-aff7-451d-94ea-653dc5153fd1">
 
-###Marking items as complete
+### Marking items as complete
 <img width="1510" alt="Screenshot 2023-05-09 at 2 46 23 PM" src="https://github.com/Peyton232/gnoTodoApp/assets/42720832/43e0b3f7-d50a-4451-943b-d0db39e3c551">
 
 ###Supports multiple todo lists
