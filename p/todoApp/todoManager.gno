@@ -11,7 +11,7 @@ import (
 	"gno.land/p/demo/ufmt"
 )
 
-// ./build/gnokey maketx addpkg -pkgpath "gno.land/p/todoapp" -pkgdir "p/todoApp" -gas-fee 50000000ugnot --gas-wanted 10000000 --broadcast --chainid dev --remote localhost:26657 g1jg8mtutu9khhfwc4nxmuhcpftf0pajdhfvsqf5   
+// ./build/gnokey maketx addpkg -pkgpath "gno.land/p/demo/todo" -pkgdir "p/todoApp" -gas-fee 50000000ugnot --gas-wanted 10000000 --broadcast --chainid dev --remote localhost:26657 g1jg8mtutu9khhfwc4nxmuhcpftf0pajdhfvsqf5   
 
 type TodosManager struct {
 	Title  string
@@ -34,11 +34,23 @@ func (m TodosManager) Render(path string) string {
 			return output
 		}
 
-		m.Lists.Iterate("", "", func(n *avl.Node) bool {
-			bucket := n.Value().(*TodoBucket)
+		// m.Lists.Iterate("", "", func(n *avl.Node) bool {
+		// 	bucket := n.Value().(*TodoBucket)
+		// 	output += bucket.RenderListItem()
+		// 	return false
+		// })
+
+		m.Lists.Iterate("", "", func(key string, value interface{}) bool {
+			bucket := value.(*TodoBucket)
 			output += bucket.RenderListItem()
 			return false
 		})
+
+		// b.Posts.Iterate("", "", func(key string, value interface{}) bool {
+		// 	post := value.(*Post)
+		// 	output += post.RenderListItem()
+		// 	return false
+		// })
 		return output
 	case isViewList:
 		name := parts[1]

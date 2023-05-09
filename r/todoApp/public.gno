@@ -5,7 +5,7 @@ import (
 	"strings"
 
 	"gno.land/p/demo/avl"
-	logic "gno.land/p/todoapp"
+	logic"gno.land/p/demo/todo"
 )
 
 var (
