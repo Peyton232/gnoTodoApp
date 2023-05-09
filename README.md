@@ -41,5 +41,5 @@ The Todo Application was written by [Peyton Thibodeaux](https://github.com/Peyto
 ### Marking items as complete
 <img width="1510" alt="Screenshot 2023-05-09 at 2 46 23 PM" src="https://github.com/Peyton232/gnoTodoApp/assets/42720832/43e0b3f7-d50a-4451-943b-d0db39e3c551">
 
-###Supports multiple todo lists
+### Supports multiple todo lists
 <img width="1510" alt="Screenshot 2023-05-09 at 2 46 53 PM" src="https://github.com/Peyton232/gnoTodoApp/assets/42720832/de224d41-23e7-4875-84b4-4ea83a745774">
